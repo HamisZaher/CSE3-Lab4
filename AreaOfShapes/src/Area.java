@@ -47,9 +47,9 @@ public class Area {
       	   System.out.println("Area of Rectangle is:"+area);
          }
          else if(a==4) {
-        	 Scanner sc = new Scanner(System.in);
+        	 Scanner scanner5 = new Scanner(System.in);
              System.out.println("Enter the length of the square ::");
-             int length = sc.nextInt();
+             int length = scanner5.nextInt();
              int area = length* length;
              System.out.println("Area of the square is ::"+area);
          }
