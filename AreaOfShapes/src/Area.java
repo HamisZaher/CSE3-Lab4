@@ -34,7 +34,18 @@ public class Area {
              double area = (base* height)/2;
              System.out.println("Area of Triangle is: " + area); 
          }
-         
+         else {
+
+      	   Scanner scanner4 = new Scanner(System.in);
+      	   System.out.println("Enter the length of Rectangle:");
+      	   double length = scanner4.nextDouble();
+      	   System.out.println("Enter the width of Rectangle:");
+      	   double width = scanner4.nextDouble();
+      	   
+      	   //Area = length*width;
+      	   double area = length*width;
+      	   System.out.println("Area of Rectangle is:"+area);
+         }
          
          
          
